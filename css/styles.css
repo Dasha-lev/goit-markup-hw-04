@@ -400,7 +400,7 @@ body {
 }
 
 .portfolio-item-description {
-  color: rgb(var(--cl-cloud));
+  color: rgb(var(--cl-grey));
 }
 
 .portfolio-content {
@@ -460,7 +460,7 @@ body {
   margin-bottom: 16px;
   line-height: 1.5;
 }
-.social-media {
+.footer .social-media {
   display: flex; 
   gap: 16px; 
   list-style: none;
