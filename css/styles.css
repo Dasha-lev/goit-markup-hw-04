@@ -16,7 +16,7 @@
   --cl-cornflower: 231, 233, 252; /* #E7E9FC */
   --cl-cloud: 244, 244, 253; /* #F4F4FD */
   --cl-light-slate: 244, 244, 253;
-  --cl-light-grey: 142, 143, 15; /* #8e8f99 */
+  --cl-light-grey: 142, 143, 153; /* #8e8f99 */
   --cl-green: 49, 208, 170; /* 31d0aa */
 
 
@@ -115,7 +115,7 @@ body {
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -160,7 +160,7 @@ body {
 .header-nav-item {
 
 }
-header-nav-link::after {
+.active::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -185,7 +185,7 @@ header-nav-link::after {
 .header-contacts {
   font-size: 16px;
   color: rgb(var(--cl-grey));
-  line-height: 1.5;
+  line-height: 1.5; 
 }
 .header-contacts-list {
   display: flex;
@@ -194,6 +194,7 @@ header-nav-link::after {
   
 .contact-link {
   color: rgb(var(--cl-grey));
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
@@ -399,7 +400,7 @@ header-nav-link::after {
 }
 
 .portfolio-item-description {
-  color: rgb(var(--cl-grey));
+  color: rgb(var(--cl-cloud));
 }
 
 .portfolio-content {
@@ -479,6 +480,7 @@ header-nav-link::after {
   border-radius: 50%; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-media-link:hover,
-.social-media-link:focus {
+.footer .social-media-link:hover,
+.footer .social-media-link:focus {
   background-color: rgb(var(--cl-green));
+}
