@@ -27,7 +27,7 @@
 }
 
 /* Reset */
-html, body, header, div, ul, li, span, a, img, address, button, h1, h2, h3, footer 
+html, body, header, div, p, ul, li, span, a, img, address, button, h1, h2, h3, footer 
  {
   margin: 0;
   padding: 0;
