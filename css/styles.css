@@ -374,7 +374,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  color: rgb(var(--cl-light));
+  color: rgb(var(--cl-cloud));
   padding: 40px 32px;
   background-color: rgb(var(--cl-iris));
   height: 100%;
